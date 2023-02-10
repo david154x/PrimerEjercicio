@@ -6,6 +6,7 @@
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
+    font-weight: bold;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
     background: #171717;
     position: fixed;
     z-index: 100;
+    border-bottom: 1px solid #fff;
 }
 
 .navbar {
@@ -64,9 +66,10 @@ body {
 }
 
 .title {
-    margin-bottom: 40px;
-    font-size: 35px;
-    font-weight: 600;
+    top: 5px;
+    margin-bottom: 80px;
+    font-size: 45px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -82,6 +85,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid #fff;
+    border-collapse: collapse;
 }
 
 .content h2 {
@@ -102,7 +107,7 @@ p {
 }
 
 .box-container .box {
-    height: 19rem;
+    height: 21rem;
     width: 18rem;
     background: #101010;
     text-align: center;
@@ -125,7 +130,7 @@ p {
     color: #fff;
     background: #FA366C;
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 5px 0;
 }
 
 .box-container .box h3 {
@@ -134,7 +139,7 @@ p {
 }
 
 .box-container .box p {
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 16px;
 }
 
@@ -148,7 +153,7 @@ p {
 }
 
 .about {
-    background: url(../img/office.jpg) no-repeat center;
+    background: url(../img/space.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -159,10 +164,17 @@ p {
 
 .after .titulo-afer {
     color: #fff;
+    font-size: 30px;
 }
 
 footer {
     background: #171717;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    border-top: 1px solid #fff;
 }
 
 footer h4 {
